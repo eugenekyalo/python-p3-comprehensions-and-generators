@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+# lib/list_comprehension.py
 
-def return_evens(num_list):
-    pass
+def return_evens(lst):
+    return [n for n in lst if n % 2 == 0]
 
-def make_exclamation(sentence_list):
-    pass
+def make_exclamation(sentences):
+    return [sentence + '!' for sentence in sentences]
